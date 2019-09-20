@@ -66,6 +66,7 @@ p{
 }
 
 
+
 .big-hero h2 {
     font-size: 1.875em;
     font-weight: 700;
@@ -74,7 +75,7 @@ p{
 }
 
 .big-hero p {
-    font-size: 0.7em;;
+    font-size: 1.2em;;
     color: #D7DEE6;
 
 }
@@ -86,23 +87,49 @@ p{
     margin-top: 3em;
     display: flex;
     flex-direction: row;
-    justify-content: center
-    
+    justify-content: center;
+    background-color: darkgoldenrod;
 }
 
 .social-links li a{
     color: #D7DEE6;
     text-decoration: none;
-    font-size: 2.5em;
+    font-size: 9.5em;
+    margin:20px;
+     
+    background-color: deeppink;
     
 }
 
-.fab fa-github{
-    color: chartreuse;
+.fa-twitter{
+    background-color: chartreuse;
+}
+
+.fa-github{
+    background-color: red;
+    
+}
+
+.big-hero .container.social-links .fa-github{
+    margin: 17px;
+    margin-bottom: 65px;
+}
+
+.big-hero .container.social-links .fa-twitter{
+    margin: 17px;
+    margin-bottom: 65px;
+}
+
+.fa-arrow-circle-down{
+    color: #0AC693;
+    text-decoration: none;
+    font-size: 4.5em;
+    margin-bottom: 125px;
 }
 
 .green-area {
     background-color: #0AC693; 
+    
 }
 
 
@@ -329,4 +356,6 @@ footer .social-links {
         margin: 0 auto;
         max-width: 1440px;
     }
+
+    
 }
