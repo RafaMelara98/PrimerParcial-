@@ -303,7 +303,7 @@ y rellena el contenido del div con padding*/
 ::-webkit-input-placeholder { 
     color: #D7DEE6; 
 } 
- 
+ /*Añade extensiones para mozilla*/
 :-moz-placeholder { /* Firefox 18- */ color: #D7DEE6; } 
  
 ::-moz-placeholder { /* Firefox 19+ */ color: #D7DEE6; } 
@@ -435,9 +435,9 @@ se la aplica ancho y alto
     .about .container input:last-child{
         border: none;
         border-radius: 0px 1em;
-        font-size: 1.3em;
+        font-size: 1.1em;
         margin-bottom: 2em;
-        width: 35%;
+        width: 205px; /*Fue cambiado a px no se miraba bien en porcentaje*/
         align-self: left;
     }
 
